@@ -13,7 +13,7 @@ You could take this file and put it on any web host. [JAMstack] sites can be nic
 - A free GitHub account
 - A free [Netlify] account
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/a-page-for-you&utm_source=github&utm_medium=fcc-examples-pnh&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/page-for-you&utm_source=github&utm_medium=fcc-examples-pnh&utm_campaign=devex)
 
 
 
