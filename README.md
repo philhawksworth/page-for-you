@@ -7,7 +7,7 @@ It might get more complex as we dig deeper.
 
 ## Building and developing locally
 
-Now we've added a build step so that we can make use of things like templates to help use with repetitive tasks when we add more pages.
+Now we've added a build step so that we can make use of things like templates to help use with repetitive tasks when we add more pages. We'll also get some News data from [News API](https://newsapi.org/) which we'll add to our page as we build it.
 
 After cloning this repository and checking out this branch, you'll need to install some tools and then run the build.
 
@@ -31,10 +31,7 @@ You could take this file and put it on any web host. [JAMstack] sites can be nic
 - A free GitHub account
 - A free [Netlify] account
 - [Node and NPM](https://nodejs.org/) installed
-
-
-
-
+- A free [News API](https://newsapi.org/) API key save in a `.env` file (as per `.env.sample`)
 
 
 
