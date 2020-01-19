@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This web page is an example of a JAMstack site and can be very simple.",
   "scripts": {
-    "build": "eleventy ",
+    "build": "ELEVENTY_ENV=prod eleventy ",
     "start": "ELEVENTY_ENV=dev eleventy --serve"
   },
   "repository": {
