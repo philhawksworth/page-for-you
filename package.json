@@ -4,7 +4,7 @@
   "description": "This web page is an example of a JAMstack site and can be very simple.",
   "scripts": {
     "build": "eleventy ",
-    "start": "eleventy --serve"
+    "start": "ELEVENTY_ENV=dev eleventy --serve"
   },
   "repository": {
     "type": "git",

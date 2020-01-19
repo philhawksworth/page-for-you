@@ -1,6 +1,11 @@
 ---
-title: A page for you
+title: Daily Breifing
 layout: layouts/base.njk
+pagination:
+  data: news
+  size: 1
+  alias: feed
+permalink: /{{ feed.country }}/index.html
 ---
 
 <div class="container">
@@ -8,17 +13,15 @@ layout: layouts/base.njk
   <div class="love">❤️</div>
   <p class="vibe"></p>
 
-
   <ul class="news">
-    {%- for article in news.gb.news.articles %}
+    {% for article in feed.news.articles %}
     <li>
       <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
       <span>{{ article.source.name}}</span> - <time>{{ article.publishedAt }}</time>
     </li>
-    {%- endfor %}
-  </ul>
+    {% endfor %}
+  <ul>
 
 </div>
 
 <script src="/js/vibe.js"></script>
-
