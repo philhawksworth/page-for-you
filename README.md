@@ -2,7 +2,7 @@
 
 This web page is an example of a [JAMstack] site and can be very simple.
 
-It might get more complex as we dig deeper. To start with though, it's just one file. And so we can host it anywhere!
+It might get more complex as we dig deeper.
 
 
 ## Building and developing locally
