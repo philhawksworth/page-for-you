@@ -1,0 +1,20 @@
+{
+  "name": "page-for-you",
+  "version": "1.0.0",
+  "description": "This web page is an example of a JAMstack site and can be very simple.",
+  "scripts": {
+    "build": "eleventy ",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philhawksworth/page-for-you.git"
+  },
+  "keywords": [],
+  "author": "Phil Hawksworth",
+  "license": "ISC",
+  "homepage": "https://github.com/philhawksworth/page-for-you#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}

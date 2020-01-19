@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A page for you</title>
+  <title>{{ title }}</title>
   <style>
     body {
       text-align: center;
@@ -21,11 +21,9 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>This page is for you!</h1>
-    <div class="love">❤️</div>
-    <p class="vibe"></p>
-  </div>
-  <script src="./vibe.js"></script>
+  <header>
+    <a href="/">Your page</a> | <a href="/about">About this page of yours</a>
+  </header>
+  {{ content | safe }}
 </body>
 </html>
